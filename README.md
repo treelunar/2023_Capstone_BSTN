@@ -44,7 +44,7 @@ The project is composed of seven Jupyter Notebooks:
 
 ### Contact
 Soohyun Ahn: soohyun.ahn.kr@gmail.com<br>
-Project Link: https://github.com/treelunar/2023_Capstone<br>
+Project Link: https://github.com/treelunar/2023_Capstone_BSTN<br>
 [LinkedIn](https://www.linkedin.com/in/soohyun-ahn/)
 
 ### Acknowledgements
