@@ -25,9 +25,11 @@ Ideally, ReelWhisperer offers a wide range of versatile use cases, catering to v
 ### Built With
 
 * beautifulsoup4
+* cm (matplotlib.cm)
 * dotenv
 * gensim
 * jupyter
+* KMeans (sklearn.cluster)
 * matplotlib
 * nltk
 * numpy
@@ -35,13 +37,18 @@ Ideally, ReelWhisperer offers a wide range of versatile use cases, catering to v
 * pandas
 * plotly
 * python=3.9.13
+* random
+* re
 * requests
 * scikit-learn
-* scipy
 * seaborn
+* silhouette_samples, silhouette_score (sklearn.metrics)
 * spacy
 * streamlit
+* tiktoken
+* TSNE (sklearn.manifold)
 * wordcloud
+* and possibly more..
 
 
 ### Project Composition
@@ -58,6 +65,7 @@ The project is composed of seven Jupyter Notebooks:
 Soohyun Ahn: soohyun.ahn.kr@gmail.com<br>
 Project Link: https://github.com/treelunar/2023_Capstone_BSTN<br>
 [LinkedIn](https://www.linkedin.com/in/soohyun-ahn/)
+[Kaggle](https://www.kaggle.com/treelunar)
 
 ### Acknowledgements
 * [Rounak Banik](https://www.kaggle.com/rounakbanik)
