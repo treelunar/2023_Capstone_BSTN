@@ -57,7 +57,7 @@ The project is composed of 4 primary Jupyter Notebooks and 3 supplementary ones:
 * Notebook 2: Part 2 Feature Engineering and Modeling
 * Notebook 3: Part 3 Topic Modeling and Clustering
 * Notebook 4: Part 4 Fine-Tuning and Enhancing Model
-<br>
+
 * (Supplementary) Notebook 1: Part 1 Data Cleaning and Preprocessing
 * (Supplementary) Notebook 2: Part 2 Feature Engineering and Modeling
 * (Supplementary) Notebook 3: Part 3 Topic Modeling
