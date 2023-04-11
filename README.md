@@ -74,6 +74,7 @@ Project Link: https://github.com/treelunar/2023_Capstone_BSTN<br>
 * I would also like to express my gratitude to the amazing 12 members of our cohort. My interactions with them have greatly enriched my experience and fostered growth in numerous ways. Without their support and camaraderie, completing this program would not have been possible.
 
 ### Datasets
-The two datasets I've worked on are directly accessible via Kaggle or online source.
+The two original datasets I've worked with can be directly accessed through Kaggle or other online sources.
 * [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) was created by Rounak Banik.
-* ["MPST: A Corpus of Movie Plot Synopses with Tags"](https://ritual.uh.edu/mpst-2018/#download) by ([Sudipta Kar](http://sudiptakar.info/) and Suraj Maharjan and A. Pastor López-Monroy and Thamar Solorio)
+* ["MPST: A Corpus of Movie Plot Synopses with Tags"](https://ritual.uh.edu/mpst-2018/#download) by ([Sudipta Kar](http://sudiptakar.info/) and Suraj Maharjan and A. Pastor López-Monroy and Thamar Solorio). This dataset is also available on [Kaggle](https://www.kaggle.com/datasets/cryptexcode/mpst-movie-plot-synopses-with-tags).
+* As the project progressed, I generated various datasets containing embeddings. These can be found in the [**data_2023_capstone_BSTN**](https://drive.google.com/drive/folders/1kEH3AYNrOQTbfh45oC5CaT7DZ8693LDS?usp=sharing) folder in my Google Drive for reference and further analysis.
