@@ -57,7 +57,6 @@ The project is composed of 4 primary Jupyter Notebooks and 3 supplementary ones:
 * Notebook 2: Part 2 Feature Engineering and Modeling
 * Notebook 3: Part 3 Topic Modeling and Clustering
 * Notebook 4: Part 4 Fine-Tuning and Enhancing Model
-
 * (Supplementary) Notebook 1: Part 1 Data Cleaning and Preprocessing
 * (Supplementary) Notebook 2: Part 2 Feature Engineering and Modeling
 * (Supplementary) Notebook 3: Part 3 Topic Modeling
@@ -75,6 +74,6 @@ Project Link: https://github.com/treelunar/2023_Capstone_BSTN<br>
 * I would also like to express my gratitude to the amazing 12 members of our cohort. My interactions with them have greatly enriched my experience and fostered growth in numerous ways. Without their support and camaraderie, completing this program would not have been possible.
 
 ### Datasets
-The two datasets I've worked on are directly accessible via Kaggle.
+The two datasets I've worked on are directly accessible via Kaggle or online source.
 * [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) was created by Rounak Banik.
 * ["MPST: A Corpus of Movie Plot Synopses with Tags"](https://ritual.uh.edu/mpst-2018/#download) by ([Sudipta Kar](http://sudiptakar.info/) and Suraj Maharjan and A. Pastor López-Monroy and Thamar Solorio)
