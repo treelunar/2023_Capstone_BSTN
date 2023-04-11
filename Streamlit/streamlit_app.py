@@ -11,8 +11,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 import contractions
 import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
-#nltk.download('stopwords')
 from nltk.stem import PorterStemmer
 import re
 import spacy
