@@ -172,7 +172,7 @@ def main():
         user_input = st.text_area("Tell me about the movie plot you're in the mood for!", "")
 
     with col2:
-        st.image("streamlit.png", width=400)
+        st.image("Streamlit/streamlit.png", width=400)
 
     if st.button("Discover Movies"):
         if user_input:
