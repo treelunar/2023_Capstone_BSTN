@@ -52,14 +52,16 @@ Ideally, ReelWhisperer offers a wide range of versatile use cases, catering to v
 
 
 ### Project Composition
-The project is composed of seven Jupyter Notebooks:
-* Notebook 1: Part 1 Data Preprocessing (with movies 40000 dataset)- EDA, data wrangling, text preprocessing, etc.
-* Notebook 2: Part 1 Data Preprocessing (with MPST dataset)- EDA, data wrangling, text preprocessing, etc.
-* Notebook 3: ..
-* Notebook 4: ..
-* Notebook 5: ..
-* Notebook 6: ..
-* Notebook 7: ..
+The project is composed of 4 primary Jupyter Notebooks and 3 supplementary ones:
+* Notebook 1: Part 1 Data Cleaning and Preprocessing
+* Notebook 2: Part 2 Feature Engineering and Modeling
+* Notebook 3: Part 3 Topic Modeling and Clustering
+* Notebook 4: Part 4 Fine-Tuning and Enhancing Model
+* (Supplementary) Notebook 1: Part 1 Data Cleaning and Preprocessing
+* (Supplementary) Notebook 2: Part 2 Feature Engineering and Modeling
+* (Supplementary) Notebook 3: Part 3 Topic Modeling
+
+Please note that to focus on the primary notebooks, simply follow the numbered sequence (Part 1, Part 2, etc.) for a streamlined experience without any distractions. If you're interested in exploring further, feel free to check out the supplementary notebooks at your leisure :)
 
 ### Contact
 Soohyun Ahn: soohyun.ahn.kr@gmail.com<br>
@@ -68,5 +70,10 @@ Project Link: https://github.com/treelunar/2023_Capstone_BSTN<br>
 [Kaggle](https://www.kaggle.com/treelunar)
 
 ### Acknowledgements
-* [Rounak Banik](https://www.kaggle.com/rounakbanik)
+* I would like to extend my special thanks to our exceptional instructors, Arad Namin and Yash Chitransh, as well as our dedicated teaching assistant, Ellie Shakeri. Their patient guidance and expertise have been invaluable throughout my time in this diploma program and during the development of my capstone project.
+* I would also like to express my gratitude to the amazing 12 members of our cohort. My interactions with them have greatly enriched my experience and fostered growth in numerous ways. Without their support and camaraderie, completing this program would not have been possible.
+
+### Datasets
+The two datasets I've worked on are directly accessible via Kaggle or online source.
+* [The Movies Dataset](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset) was created by Rounak Banik.
 * ["MPST: A Corpus of Movie Plot Synopses with Tags"](https://ritual.uh.edu/mpst-2018/#download) by ([Sudipta Kar](http://sudiptakar.info/) and Suraj Maharjan and A. Pastor López-Monroy and Thamar Solorio)
