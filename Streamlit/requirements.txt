@@ -10,3 +10,4 @@ nltk
 spacy==3.5.1
 openai==0.27.1
 python-dotenv
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0.tar.gz
