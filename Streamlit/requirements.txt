@@ -1,0 +1,13 @@
+streamlit==1.21.0
+pandas
+numpy==1.24.2
+requests
+beautifulsoup4
+Pillow==9.2.0
+json
+scikit-learn
+contractions
+nltk
+spacy==3.5.1
+openai==0.27.1
+python-dotenv
