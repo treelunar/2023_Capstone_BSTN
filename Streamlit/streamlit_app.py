@@ -25,9 +25,6 @@ import random
 import ast
 import io
 
-# Load the numpy array from bytes
-embeddings = np.load(io.BytesIO(bytes_data), allow_pickle=True)
-
 # Set the seed for Python's built-in random module
 random.seed(42)
 
