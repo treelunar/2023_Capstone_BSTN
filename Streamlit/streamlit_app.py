@@ -24,15 +24,6 @@ load_dotenv()
 import random
 import ast
 import io
-from google.cloud import storage
-
-# Set up client and bucket objects
-client = storage.Client()
-bucket = client.bucket('capstone-bstn')
-
-# Set up file object
-blob = bucket.blob('ada_embeddings_movie_40000.npy')
-bytes_data = blob.download_as_bytes()
 
 # Load the numpy array from bytes
 embeddings = np.load(io.BytesIO(bytes_data), allow_pickle=True)
