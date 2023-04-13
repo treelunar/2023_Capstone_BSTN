@@ -21,7 +21,6 @@ Ideally, ReelWhisperer offers a wide range of versatile use cases, catering to v
 * **Screenwriting Inspiration**: Screenwriters or filmmakers can use ReelWhisperer to find movies with similar plotlines as their own ideas. This can help them study the narrative structures and storytelling techniques employed in these films, providing inspiration and guidance for their own projects.
 * **Content Recommendation for Streaming Platforms**: Streaming platforms can integrate and fully develop ReelWhisperer to enhance their recommendation systems, offering users the option to receive movie suggestions based on specific plot preferences or narrative elements, thus improving user satisfaction and engagement.
 
-
 ### Built With
 
 * beautifulsoup4
@@ -50,7 +49,6 @@ Ideally, ReelWhisperer offers a wide range of versatile use cases, catering to v
 * wordcloud
 * and possibly more..
 
-
 ### Project Composition
 The project is composed of 4 primary Jupyter Notebooks and 3 supplementary ones:
 * Notebook 1: Part 1 Data Cleaning and Preprocessing
@@ -62,6 +60,11 @@ The project is composed of 4 primary Jupyter Notebooks and 3 supplementary ones:
 * (Supplementary) Notebook 3: Part 3 Topic Modeling
 
 Please note that to focus on the primary notebooks, simply follow the numbered sequence (Part 1, Part 2, etc.) for a streamlined experience without any distractions. If you're interested in exploring further, feel free to check out the supplementary notebooks at your leisure :)
+
+### Streamlit app
+Here is a demo of ReelWhisperer! (The online link will be soon updated)
+
+https://user-images.githubusercontent.com/126534338/231637916-01518911-a30f-465e-aafc-3a81ce36b7e3.mp4
 
 ### Contact
 Soohyun Ahn: soohyun.ahn.kr@gmail.com<br>
