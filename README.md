@@ -62,7 +62,10 @@ The project is composed of 4 primary Jupyter Notebooks and 3 supplementary ones:
 Please note that to focus on the primary notebooks, simply follow the numbered sequence (Part 1, Part 2, etc.) for a streamlined experience without any distractions. If you're interested in exploring further, feel free to check out the supplementary notebooks at your leisure :)
 
 ### Streamlit app
-Here is a demo of ReelWhisperer! (The online link will be soon updated)
+
+Explore tailored movie suggestions with ReelWhisperer! Click [**here**](https://treelunar-2023-capstone-bstn-streamlitstreamlit-app-l4t9ow.streamlit.app/) to find your next film favorite!
+
+Curious about how it works? Check out the below demo for a quick glimpse!"
 
 https://user-images.githubusercontent.com/126534338/231637916-01518911-a30f-465e-aafc-3a81ce36b7e3.mp4
 
