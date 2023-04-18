@@ -55,8 +55,12 @@ embeddings_file_path = os.path.join(script_path, 'ada_embeddings_movie_40000.npy
 # Load the embeddings file
 embeddings = np.load(embeddings_file_path, allow_pickle=True)
 
-# Load the DataFrame from the CSV file
-ada_40000_min_df = pd.read_csv('ada_40000_min_streamlit_updated.csv')
+# Build the path to the CSV file
+csv_file_path = os.path.join(script_path, 'ada_40000_min_streamlit_updated.csv')
+
+# Load the CSV file
+ada_40000_min_df = pd.read_csv(csv_file_path)
+
 
 # Add the embeddings back to the DataFrame
 ada_40000_min_df['ada_embeddings'] = pd.Series(embeddings)
