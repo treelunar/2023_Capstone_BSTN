@@ -30,7 +30,6 @@ random.seed(42)
 # Set the seed for NumPy's random number generator
 np.random.seed(42)
 
-load_dotenv()
 api_key = os.environ.get("OPENAI_API_KEY")
 openai.api_key = api_key
 tmdb_api_key = os.environ.get("TMDB_API_KEY")
