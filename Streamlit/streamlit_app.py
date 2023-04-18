@@ -61,7 +61,6 @@ csv_file_path = os.path.join(script_path, 'ada_40000_min_streamlit_updated.csv')
 # Load the CSV file
 ada_40000_min_df = pd.read_csv(csv_file_path)
 
-
 # Add the embeddings back to the DataFrame
 ada_40000_min_df['ada_embeddings'] = pd.Series(embeddings)
 
@@ -187,7 +186,11 @@ def main():
         user_input = st.text_area("Tell me about the movie plot you're in the mood for!", "")
 
     with col2:
-        st.image("streamlit.png", width=400)
+        # Build the path to the image file
+        image_file_path = os.path.join(script_path, 'streamlit.png')
+
+        # Display the image using the full path
+        st.image(image_file_path, width=400)
 
     if st.button("Discover Movies"):
         if user_input:
