@@ -44,14 +44,16 @@ stop_words = set(stopwords.words('english'))
 # Load the small English NER model
 nlp = spacy.load("en_core_web_sm")
 
+import os
+
 # Get the absolute path to the current script
 script_path = os.path.dirname(os.path.abspath(__file__))
 
 # Build the path to the embeddings file
 embeddings_file_path = os.path.join(script_path, 'ada_embeddings_movie_40000.npy')
 
-# Load the embeddings from the binary file
-embeddings = np.load('ada_embeddings_movie_40000.npy', allow_pickle=True)
+# Load the embeddings file
+embeddings = np.load(embeddings_file_path, allow_pickle=True)
 
 # Load the DataFrame from the CSV file
 ada_40000_min_df = pd.read_csv('ada_40000_min_streamlit_updated.csv')
