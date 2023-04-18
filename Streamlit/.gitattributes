@@ -1,3 +1,2 @@
 ada_embeddings_movie_40000.npy filter=lfs diff=lfs merge=lfs -text
 *.npy filter=lfs diff=lfs merge=lfs -text
-ada_embeddings_moive_40000.npy filter=lfs diff=lfs merge=lfs -text
