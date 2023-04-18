@@ -44,6 +44,9 @@ stop_words = set(stopwords.words('english'))
 # Load the small English NER model
 nlp = spacy.load("en_core_web_sm")
 
+print("Current directory contents:")
+print(os.listdir())
+
 # Load the embeddings from the binary file
 embeddings = np.load('ada_embeddings_movie_40000.npy', allow_pickle=True)
 
