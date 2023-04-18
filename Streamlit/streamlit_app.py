@@ -11,8 +11,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.feature_extraction.text import TfidfVectorizer
 import contractions
 import nltk
-nltk.download('stopwords')
 from nltk.corpus import stopwords
+nltk.download('stopwords')
 from nltk.stem import PorterStemmer
 import re
 import spacy
@@ -30,6 +30,7 @@ random.seed(42)
 # Set the seed for NumPy's random number generator
 np.random.seed(42)
 
+load_dotenv()
 api_key = os.environ.get("OPENAI_API_KEY")
 openai.api_key = api_key
 tmdb_api_key = os.environ.get("TMDB_API_KEY")
@@ -46,8 +47,8 @@ nlp = spacy.load("en_core_web_sm")
 # Load the embeddings from the binary file
 embeddings = np.load('ada_embeddings_movie_40000.npy', allow_pickle=True)
 
-# Load the rest of the DataFrame from the CSV file
-ada_40000_min_df = pd.read_csv('ada_40000_min_streamlit.csv')
+# Load the DataFrame from the CSV file
+ada_40000_min_df = pd.read_csv('ada_40000_min_streamlit_updated.csv')
 
 # Add the embeddings back to the DataFrame
 ada_40000_min_df['ada_embeddings'] = pd.Series(embeddings)
@@ -109,7 +110,7 @@ def most_similar_movies(user_input, df, n=5, cosine_weight=0.70, jaccard_weight=
     user_keywords = set(user_input_preprocessed.split())
 
     # Unique genres in the dataset
-    unique_genres = set(sum([ast.literal_eval(genres) for genres in df['genres'].tolist()], []))
+    unique_genres = set(sum([x if isinstance(x, list) else [x] for x in df['genres'].apply(ast.literal_eval).tolist()], []))
 
     # Find the matched genres
     matched_genres = unique_genres.intersection(user_keywords)
@@ -117,12 +118,14 @@ def most_similar_movies(user_input, df, n=5, cosine_weight=0.70, jaccard_weight=
     similarities = []
 
     for index, row in df.iterrows():
-        cur_embeddings = row['ada_embeddings']
-        cosine_sim = cosine_similarity(input_embeddings.reshape(1, -1), cur_embeddings.reshape(1, -1))[0, 0]
+        cur_embeddings = np.fromstring(row['ada_embeddings'])
+        if cur_embeddings.size > 0:
+            cosine_sim = cosine_similarity(input_embeddings.reshape(1, -1), cur_embeddings.reshape(1, -1))[0, 0]
+        else:
+            cosine_sim = 0.0
 
         # Use preprocessed movie description
         movie_keywords = set(row['clean_overview'].split())
-
         jaccard_sim_keywords = jaccard_similarity(user_keywords, movie_keywords)
 
         # Calculate Jaccard similarity for genres
@@ -172,7 +175,7 @@ def main():
         user_input = st.text_area("Tell me about the movie plot you're in the mood for!", "")
 
     with col2:
-        st.image("Streamlit/streamlit.png", width=400)
+        st.image("streamlit.png", width=400)
 
     if st.button("Discover Movies"):
         if user_input:
@@ -193,3 +196,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
