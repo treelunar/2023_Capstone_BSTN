@@ -30,9 +30,9 @@ random.seed(42)
 # Set the seed for NumPy's random number generator
 np.random.seed(42)
 
-api_key = os.environ.get("OPENAI_API_KEY")
+api_key = st.secrets["api_keys"]["openai_key"]
 openai.api_key = api_key
-tmdb_api_key = os.environ.get("TMDB_API_KEY")
+tmdb_api_key = st.secrets["api_keys"]["tmdb_key"]
 
 global df
 df = None
