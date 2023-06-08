@@ -43,8 +43,6 @@ stop_words = set(stopwords.words('english'))
 # Load the small English NER model
 nlp = spacy.load("en_core_web_sm")
 
-import os
-
 # Get the absolute path to the current script
 script_path = os.path.dirname(os.path.abspath(__file__))
 
