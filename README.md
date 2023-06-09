@@ -63,7 +63,7 @@ Please note that to focus on the primary notebooks, simply follow the numbered s
 
 ### Streamlit app 🎮
 
-Explore tailored movie suggestions with ReelWhisperer! Click [**here**](https://treelunar-2023-capstone-bstn-streamlitstreamlit-app-l4t9ow.streamlit.app/) to find your next film favorite! Embrace the unexpected! Our recommendations may surprise you, but that's part of the charm 😉
+Explore tailored movie suggestions with ReelWhisperer! Click [**here**](https://treelunar-2023-capstone-bstn-streamlitstreamlit-app-l4t9ow.streamlit.app/) to find your next film favorite! Embrace the unexpected! Our recommendations may surprise you, but that's part of the charm 😉 (I need to update some of dependencies so ReelWhisperer is not working now as of June 9, 2023)
 
 Curious about how it works? Check out the below demo for a quick glimpse!"
 
