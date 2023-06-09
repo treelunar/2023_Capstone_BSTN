@@ -3,7 +3,7 @@ aiosignal==1.3.1
 altair==4.2.2
 anaconda-client==1.11.0
 anaconda-navigator==2.3.1
-anaconda-project @ file:///C:/Windows/TEMP/abs_91fu4tfkih/croots/recipe/anaconda-project_1660339890874/work
+anaconda-project
 anyascii==0.3.2
 anyio
 appdirs==1.4.4
