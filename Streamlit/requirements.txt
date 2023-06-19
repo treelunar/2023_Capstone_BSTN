@@ -7,7 +7,8 @@ Pillow==9.2.0
 scikit-learn
 contractions
 nltk
-spacy>=3.1.0,<3.2.0
+spacy==3.1.7
+pydantic==1.8.2
+en-core-web-sm==3.1.0
 openai==0.27.1
 python-dotenv
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0.tar.gz
