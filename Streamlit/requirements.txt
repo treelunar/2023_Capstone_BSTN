@@ -9,6 +9,6 @@ contractions
 nltk
 spacy==3.1.7
 pydantic==1.8.2
-en-core-web-sm
+en-core-web-sm==3.1.0
 openai==0.27.1
 python-dotenv
