@@ -15,7 +15,8 @@ from nltk.corpus import stopwords
 nltk.download('stopwords')
 from nltk.stem import PorterStemmer
 import re
-import spacy
+import spacy.cli
+spacy.cli.download("en_core_web_sm")
 from heapq import nlargest
 import openai
 import os
